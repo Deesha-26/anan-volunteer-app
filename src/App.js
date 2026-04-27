@@ -24,22 +24,7 @@ const C = {
 
 // Panda SVG component matching the logo style
 const PandaLogo = ({ size = 32 }) => (
-  <svg width={size} height={size} viewBox="0 0 60 60">
-    <circle cx="30" cy="30" r="28" fill={C.red} />
-    <circle cx="30" cy="33" r="18" fill="white" />
-    <circle cx="21" cy="22" r="7" fill={C.purple} opacity="0.85" />
-    <circle cx="39" cy="22" r="7" fill={C.purple} opacity="0.85" />
-    <circle cx="21" cy="22" r="4.5" fill="white" />
-    <circle cx="39" cy="22" r="4.5" fill="white" />
-    <circle cx="24" cy="30" r="5" fill={C.purple} opacity="0.7" />
-    <circle cx="36" cy="30" r="5" fill={C.purple} opacity="0.7" />
-    <circle cx="24" cy="29" r="2.5" fill="white" />
-    <circle cx="36" cy="29" r="2.5" fill="white" />
-    <circle cx="25" cy="28.5" r="1.2" fill={C.navy} />
-    <circle cx="37" cy="28.5" r="1.2" fill={C.navy} />
-    <ellipse cx="30" cy="35" rx="2.5" ry="1.8" fill={C.navy} />
-    <path d="M27 37.5 Q30 40 33 37.5" fill="none" stroke={C.navy} strokeWidth="1.2" strokeLinecap="round" />
-  </svg>
+  <img src="/logo.png" alt="An An" width={size} height={size} style={{ objectFit: "contain" }} />
 );
 
 // Mock data
